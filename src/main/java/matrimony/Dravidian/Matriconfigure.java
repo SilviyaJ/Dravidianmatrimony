@@ -22,7 +22,7 @@ public class Matriconfigure {
 	
 	@Bean
 	public WebSecurityCustomizer share() {
-		return(web)->web.ignoring().antMatchers("api/signup");
+		return(web)->web.ignoring().antMatchers("/api/signup");
 	}
 	
 	@Bean
@@ -32,7 +32,7 @@ public class Matriconfigure {
 	
 	@Bean
 	public SecurityFilterChain sil(HttpSecurity hp) throws Exception{
-		hp.authorizeRequests().anyRequest().authenticated();
+		hp.authorizeRequests().antMatchers("/api/*").authenticated();
 		hp.csrf().disable();
 		hp.httpBasic();
 		hp.formLogin();

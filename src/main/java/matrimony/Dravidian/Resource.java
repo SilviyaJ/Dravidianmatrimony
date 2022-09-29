@@ -34,7 +34,7 @@ public class Resource implements UserDetails{
 	}
 	public String getUsername() {
 		// TODO Auto-generated method stub
-		return null;
+		return username;
 	}
 	@Override
 	public boolean isAccountNonExpired() {

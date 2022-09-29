@@ -24,7 +24,7 @@ public class DravidianApplication {
 //	public void  tmp() {
 //			Resource res=new Resource();
 //			
-//			res.setUsername("silviya");res.setPassword(encoder.encode("jessy"));;res.setEmail("sil22@gmail.com");
+//			res.setUsername("silviya");res.setPassword(encoder.encode("jessy"));res.setEmail("sil22@gmail.com");
 //			res.setMobile(489675369L);
 //			servi.implementSave(res);
 //		}

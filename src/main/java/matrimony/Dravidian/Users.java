@@ -36,7 +36,7 @@ public class Users {
 	private String fathername;
 	@Column(name="customer_mothername")
 	private String mothername;
-	@Column(name="customer_silblingscount")
+	@Column(name="customer_siblingscount")
 	private int siblingscount;
 	@Column(name="customer_expectation")
 	private String expectation;
