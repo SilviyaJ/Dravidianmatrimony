@@ -27,7 +27,7 @@ export const Slide=()=>{
                     <Offcanvas.Header closeButton>
                         <Offcanvas.Title>Offcanvas</Offcanvas.Title>
                     </Offcanvas.Header>
-                  <Offcanvas.Body>
+                  <Offcanvas.Body className='text-dark'>
                   "May this marriage be full of laughter, our every day in paradise."<br/><br/>
                    "Contact genuine profiles with 100% verified mobile numbers.""<br/><br/>
                    "Highest number of documented marriages online.""<br/><br/>
