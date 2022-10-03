@@ -25,7 +25,7 @@ export const Filter=()=>{
     }
     const doFilter=async()=>{
         const t= await onSubmitFilter(short)
-        //alert(JSON.stringify(t.data))
+        alert(JSON.stringify(t.data))
         if(t.data){
             if(t.data!=="err"){
                 setResult(true)

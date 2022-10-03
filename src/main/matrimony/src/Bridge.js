@@ -57,7 +57,7 @@ export const onSubmitDeleteCondition=async(see)=>{
 
 
 export const onSubmitFilter=async(object)=>{
-    // alert(JSON.stringify(object))
+    alert(JSON.stringify(object))
     try{
         if(object.occupation!==""&&object.location===""&&object.qualification===""&&object.height===0.0){
           const t =await axios.get(`/api/bywork/${object.occupation}`,{
@@ -69,13 +69,13 @@ export const onSubmitFilter=async(object)=>{
           return t
     }
     else if(object.occupation===""&&object.location!==""&&object.qualification===""&&object.height===0.0){
-        //alert("location condition satisfied")
+        alert("location condition satisfied")
         const t=await axios.get(`/api/byplace/${object.location}`,{
            headers:{
             "Authorization":`Basic ${sessionStorage.getItem('user')}`
            } 
         })
-        // alert(JSON.stringify(t.data))
+        alert(JSON.stringify(t.data))
         return t
     }
     else if(object.occupation===""&&object.location===""&&object.qualification!==""&&object.height===0.0){
