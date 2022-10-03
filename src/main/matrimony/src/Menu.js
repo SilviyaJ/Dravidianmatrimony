@@ -13,7 +13,7 @@ export const Menu=()=>{
             <Container fluid>
                 <Navbar.Brand className="text-danger">
                 <img
-                    src="download1.png"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSApX_2Cd0rphNJhl8ooc180Irnj0VZqmqnSzdFiLvaCYHS30-3GRextlZy18w7eYV-1BU&usqp=CAU"
                     width="40"
                     height="40"
                     className="d-inline-block align-top"
