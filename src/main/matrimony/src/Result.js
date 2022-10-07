@@ -13,7 +13,7 @@ export const Result=(prop)=>{
          <div className="container mt-5">
             <h1 className="text-center text-warning">Your perfect match is!</h1>
             <div className="row justify-content-center">
-                <div className="col-lg-7 col-md-10 col-sm-12 p-5 shadow rounded-3" style={{backgroundColor:'rgb(227, 227, 227)'}}>
+                <div className="col-lg-7 col-md-10 col-sm-12 p-5 shadow rounded-3" style={{backgroundColor:'rgb(227, 227, 64)'}}>
                     {
                         (!stocks.length)?
                                     <>
