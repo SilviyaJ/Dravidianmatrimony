@@ -36,9 +36,9 @@ export const Signup=()=>{
     return(
         <>
             <div className="container mt-5">
-                <h1 className="text-center text-warning">SignUp to find your perfect match</h1>
+                <h1 className="text-center text-warning">SignUp to find your Perfect Match!</h1>
                 <div className="row justify-content-center">
-                    <div className="col-lg-7 col-md-8 col-sm-12 shadow rounded-5 p-5" style={{backgroundColor:'rgb(227, 227, 227)'}}>
+                    <div className="col-lg-7 col-md-8 col-sm-12 shadow rounded-5 p-5" style={{backgroundColor:'rgb(227, 227, 64)'}}>
                         <div className="form group">
                             <label className="text-dark">User Name</label>
                             <input type="text" name="username" placeholder="Enter the username" className="form-control" value={user.username} onChange={gather} />

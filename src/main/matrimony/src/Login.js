@@ -39,10 +39,18 @@ return(
         <><Signup/></>
         :
         <>
-        <div className="container mt-5">
-                        <h1 className="text-center text-warning">Welcome to Dravidian Matrimony World</h1><br/>
-                        <div className="row justify-content-center">
-                            <div className="col-lg-4 col-md-8 col-sm-12 shadow rounded-5 p-5" style={{backgroundColor:'rgb(227, 227, 227)'}}>
+        <div className="container mt-5" >
+                        <h1 className="text-center text-warning">Welcome to Dravidian Matrimony World!</h1><br/>
+                        <div className="container" >
+                        <div className="row justify-content-around">
+                            <div className="col-lg-4 col-md-10"><br></br>
+                                {/* <h3 className="text-center text-warning">Dravidian Matrimony</h3><br></br><br></br> */}
+                                <p className="text-warning display-6" >“A successful marriage requires falling in love many times, always with the same person.”</p>
+                                
+
+                            </div>
+                        
+                            <div className="col-lg-4 col-md-8 col-sm-12 shadow rounded-5 p-5" style={{backgroundColor:'rgb(227, 227, 64)'}}>
                                 <div className="form group">
                                     <label className="text-dark">Username</label>
                                     <input type="text" name="username" value={person.username} onChange={gather} placeholder="Username Please" className="form-control" />
@@ -63,11 +71,12 @@ return(
                                 <button className=" col-6 btn btn-secondary" onClick={()=>{
                                     setSignview(true)
                                 }}>
-                                    New USer?
+                                    New User?
                                     </button>
                                 </div>
                             
                             </div>
+                        </div>
                         </div>
                     </div>
                     </>
