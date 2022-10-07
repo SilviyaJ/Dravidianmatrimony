@@ -53,7 +53,7 @@ export const Filter=()=>{
             <div className="container mt-4">
             <h1 className="text-center display-4 text-warning">Select your suitable matches here</h1>
             <div className="row justify-content-center">
-                <div className="col=lg-6 col-md-8 col-12 p-4 shadow rounded-3" style={{backgroundColor:'rgb(227, 227, 227)'}}>
+                <div className="col=lg-6 col-md-8 col-12 p-4 shadow rounded-3" style={{backgroundColor:'rgb(227, 227, 64)'}}>
                     <div className="form group">
                         <label className="text-dark">Filter by Occupation</label>
                         <input onChange={collect} value={short.occupation} type="text" name="occupation" placeholder="Occupation to filter" className="form-control"/>

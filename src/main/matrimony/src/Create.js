@@ -59,7 +59,7 @@ export const Create=()=>{
         <div className="container mt-5">
         <h1 className="text-center text-warning">Create new Profile</h1>
             <div className="row justify-content-center">
-                <div className="col-lg-7 col-md-10 col-sm-12 shadow p-4 rounded-3" style={{backgroundColor:'rgb(227, 227, 227)'}}>
+                <div className="col-lg-7 col-md-10 col-sm-12 shadow p-4 rounded-3" style={{backgroundColor:'rgb(227, 227, 64)'}}>
                     <div className="row">
                         <label className="text-dark">My Name</label>
                         <input name="username" onChange={gather} value={pack.username} type="text"  placeholder="Myname" className="form-control"/>

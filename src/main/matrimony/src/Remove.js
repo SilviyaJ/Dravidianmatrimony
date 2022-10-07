@@ -21,7 +21,7 @@ export const Remove=()=>{
         <>
         <div className="container mt-3">
             <div className="row justify-content-center">
-                <div className="col-lg-4 col-md-6 col-sm-12 p-5 shadow rounded-5" style={{backgroundColor:'rgb(227, 227, 227)'}}>
+                <div className="col-lg-4 col-md-6 col-sm-12 p-5 shadow rounded-5" style={{backgroundColor:'rgb(227, 227, 64)'}}>
                     <div className="form group">
                         <label className="text-dark">Place to delete</label>
                         <input type="text" name="location" placeholder="Person Location" value={type} onChange={collect} className="form-control"/>
